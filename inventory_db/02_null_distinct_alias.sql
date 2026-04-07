@@ -2,8 +2,8 @@
 SELECT DISTINCT category FROM products;
 
 -- Q2: Fetch every product and their prices and keep alias of price as "Product Price" and name as "Product Name"
-SELECT name AS Product_Name,
-price AS Product_Price 
+SELECT name AS "Product Name",
+price AS "Product Price" 
 FROM products;
 
 -- Q3: Fetch distinct roles exists in user table
